@@ -36,7 +36,7 @@ They cover both the quiz creation and a player playing the quiz.
 - Enhance the quiz generation - difficulty levels, adaptive, more advanced queries to retrieve the data, 
 cache the retrieval of the characters.
 - Add logging
-- Add unit testing - ideally TDD
+- Add unit tests
 
 
 
