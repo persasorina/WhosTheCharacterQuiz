@@ -1,0 +1,74 @@
+# Visual Studio
+.vs
+.vscode
+.sln.docstates
+
+# Build results
+[Bb]in
+[Oo]bj
+[Ll]ogs
+.dll
+.exe
+.pdb
+.appx
+.appxbundle
+.apk
+.ipa
+.msp
+.msi
+.manifest
+.pdb
+
+# User-specific files
+.user
+.userosscache
+.suo
+.sln.ide
+
+# Visual Studio Code
+.vscode
+.history
+
+# Rider
+.idea
+.sln.iml
+.idea
+.sln.iml
+
+# NuGet Packages
+.nupkg
+packages
+!packagesbuild
+!packagesbuildbuild
+!packagesbuildbuild.targets
+!packagesbuildbuild.props
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+.dbmdl
+.dbproj.schemaview
+.jfm
+.d.ts
+.userprefs
+.jfm
+
+# Azure Functions
+local.settings.json
+bin
+obj
+wwwroot
+
+# Publish output
+publish
+
+# Others
+.sln.docstates
+.sln.ide
+.pdb
+.msp
+.suo
+.user
+.sln.ide
+.obj
+.bin

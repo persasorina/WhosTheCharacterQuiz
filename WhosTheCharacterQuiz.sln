@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhosTheCharacterQuiz.Domain", "src\WhosTheCharacterQuiz.Domain\WhosTheCharacterQuiz.Domain.csproj", "{7E9D07E1-DF82-4DD6-A8BF-F58845EDAC0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{70343323-9EBF-42D8-817A-04EB1B88D725}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhosTheCharacterQuiz.Application", "src\WhosTheCharacterQuiz.Application\WhosTheCharacterQuiz.Application.csproj", "{C8EDC18B-794E-419A-99C5-C8C8B68DDC69}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhosTheCharacterQuiz.Infrastructure", "src\WhosTheCharacterQuiz.Infrastructure\WhosTheCharacterQuiz.Infrastructure.csproj", "{64C0F597-7EEE-4531-AB5C-FDCD1612D002}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhosTheCharacterQuiz.Api", "src\WhosTheCharacterQuiz.Api\WhosTheCharacterQuiz.Api.csproj", "{07EE0F55-B532-47B7-8BDE-4BBD92E2CAA8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{2E4AFBDB-8643-4461-BB17-D141D66AFF95}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{8E93BE70-F070-4259-964C-8BF953590548}"
+	ProjectSection(SolutionItems) = preProject
+		images\projectdependency.png = images\projectdependency.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E9D07E1-DF82-4DD6-A8BF-F58845EDAC0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E9D07E1-DF82-4DD6-A8BF-F58845EDAC0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E9D07E1-DF82-4DD6-A8BF-F58845EDAC0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E9D07E1-DF82-4DD6-A8BF-F58845EDAC0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8EDC18B-794E-419A-99C5-C8C8B68DDC69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8EDC18B-794E-419A-99C5-C8C8B68DDC69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8EDC18B-794E-419A-99C5-C8C8B68DDC69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8EDC18B-794E-419A-99C5-C8C8B68DDC69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64C0F597-7EEE-4531-AB5C-FDCD1612D002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64C0F597-7EEE-4531-AB5C-FDCD1612D002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64C0F597-7EEE-4531-AB5C-FDCD1612D002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64C0F597-7EEE-4531-AB5C-FDCD1612D002}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07EE0F55-B532-47B7-8BDE-4BBD92E2CAA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07EE0F55-B532-47B7-8BDE-4BBD92E2CAA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07EE0F55-B532-47B7-8BDE-4BBD92E2CAA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07EE0F55-B532-47B7-8BDE-4BBD92E2CAA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7E9D07E1-DF82-4DD6-A8BF-F58845EDAC0A} = {70343323-9EBF-42D8-817A-04EB1B88D725}
+		{C8EDC18B-794E-419A-99C5-C8C8B68DDC69} = {70343323-9EBF-42D8-817A-04EB1B88D725}
+		{64C0F597-7EEE-4531-AB5C-FDCD1612D002} = {70343323-9EBF-42D8-817A-04EB1B88D725}
+		{07EE0F55-B532-47B7-8BDE-4BBD92E2CAA8} = {70343323-9EBF-42D8-817A-04EB1B88D725}
+		{2E4AFBDB-8643-4461-BB17-D141D66AFF95} = {70343323-9EBF-42D8-817A-04EB1B88D725}
+		{8E93BE70-F070-4259-964C-8BF953590548} = {2E4AFBDB-8643-4461-BB17-D141D66AFF95}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2BE4B1B4-3A13-4324-89F4-1682ED9B70EF}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+@host = https://localhost:7233
+
+# Get quiz by name
+GET {{host}}/quiz?name=My%20First%20Quiz
+Content-Type: application/json

@@ -1,0 +1,32 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+@host = https://localhost:7233
+
+# Valid request - if invoked twice, it should return an error stating that a quiz with this name already exists
+POST {{host}}/quiz/create
+Content-Type: application/json
+{   
+   "Name":"My First Quiz",
+   "Description":"My first quiz description",
+   "NumberOfQuestions":2   
+}
+
+### Valid request - second quiz
+POST {{host}}/quiz/create
+Content-Type: application/json
+{   
+   "Name":"My Second Quiz",
+   "Description":"My second quiz description",
+   "NumberOfQuestions":3
+}
+
+### Check validation errors
+POST {{host}}/quiz/create
+Content-Type: application/json
+{
+   "Name":"",
+   "Description": "",
+   "NumberOfQuestions":20   
+}
+
+
+

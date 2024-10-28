@@ -1,0 +1,10 @@
+graph TD
+	A[Presentation<br>WhosTheCharacterQuiz.Api] --> B[Application<br>WhosTheCharacterQuiz.Application]
+	C[Infrastructure<br>WhosTheCharacterQuiz.Infrastructure] --> B
+	B --> D[Domain<br>WhosTheCharacterQuiz.Domain]
+
+%% Style each node with specified light colors
+    style A color:#000000, fill:#b3d9ff,stroke:#333,stroke-width:2px  %% Light Blue
+    style C color:#000000, fill:#ccffcc,stroke:#333,stroke-width:2px  %% Light Green
+    style D color:#000000, fill:#ffffcc,stroke:#333,stroke-width:2px  %% Light Yellow
+    style B color:#000000, fill:#ffcccc,stroke:#333,stroke-width:2px  %% Light Red
